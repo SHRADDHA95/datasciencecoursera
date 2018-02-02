@@ -1,0 +1,148 @@
+<!doctype html>
+
+<head>
+
+        <title>Learning bootstrap</title>
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
+           <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburgerMenu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="hamburgerMenu">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+ <div class="container-fluid">
+
+  <div class="row">
+
+     <div class="col-sm-12 text-center jumbotron">
+
+          <h1 style="color:#337ab7";"font-size:80px">Hello World</h1>
+
+          <hr>
+
+     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+
+     has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+      </div>
+      <div class="col-sm-12">
+
+       <div class=" col-sm-6">
+         <img class="img-responsive" src="images/norway.jpg" alt="beautiful Norway">
+
+       </div>
+       <div class="col-sm-6">
+         <h2>This is Norway</h2>
+         <hr>
+         <p>
+           Norway (/ˈnɔːrweɪ/ (About this sound listen) NAWR-way; Norwegian: About this sound Norge (Bokmål) or About this sound Noreg (Nynorsk); Northern Sami: Norga), officially the Kingdom of Norway, is a sovereign state whose territory comprises the western portion of the Scandinavian Peninsula plus the remote island of Jan Mayen and the archipelago of Svalbard.[note 1] The Antarctic Peter I Island and the sub-Antarctic Bouvet Island are dependent territories and thus not considered part of the Kingdom. Norway also lays claim to a section of Antarctica known as Queen Maud Land. Until 1814, the kingdom included the Faroe Islands, Greenland, and Iceland. It also included Bohuslän until 1658, Jämtland and Härjedalen until 1645, Shetland and Orkney until 1468, and the Hebrides and Isle of Man until 1266.
+         </p>
+         <button class="btn btn-primary" type="button" name="button">Book a Tour</button>
+
+       </div>
+
+
+      </div>
+
+ </div>
+ <div class="row jumbotron icons text-center">
+   <div class="col-sm-12">
+     <div class="col-sm-4 my-icon ">
+     <i class="fa fa-heart" aria-hidden="true"></i>
+     </div>
+     <div class="col-sm-4 my-icon">
+     <i class="fa fa-info-circle" aria-hidden="true"></i>
+     </div>
+     <div class="col-sm-4 my-icon">
+      <i class="fa fa-trash" aria-hidden="true"></i>
+     </div>
+
+   </div>
+
+ </div>
+
+ <div class="row">
+   <div class="col-sm-6 col-sm-offset-3">
+    <h3 class="text-center">Here are some unorderd lists</h3>
+    <ul class="list-group">
+      <li class="list-group"></li>
+        <li class="list-group-item">Norway</li>
+        <li class="list-group-item">Nepal</li>
+        <li class="list-group-item">Kyoto</li>
+        <li class="list-group-item">Alaska</li>
+        <li class="list-group-item">Bhutan</li>
+
+    </ul>
+  </div>
+</div>
+<div class="row" id="contact">
+<div class="col-sm-8 col-sm-offset-2">
+  <h2 class="text-primary text-center">Contact Form</h2>
+  <hr>
+  <form  action="index.html" method="post">
+    <div class="form-group">
+      <label for="">Name</label>
+      <input type="text" class="form-control" name="" value="">
+     </div>
+     <div class="form-group">
+       <label for="">Email</label>
+       <input type="email" class="form-control" name="" value="">
+      </div>
+      <div class="form-group">
+        <label for="">Password</label>
+        <input type="password" class="form-control" name="" value="">
+       </div>
+       <div class="form-group">
+         <label for=""><input type="checkbox" name="" value="">Check It</label>
+       </div>
+       <div class="form-group">
+         <label for=""><input type="radio" name="" value="">Radio button</label>
+       </div>
+       <button class="btn btn-danger" type="button" name="button">Submit</button>
+
+  </form>
+</div>
+</div>
+
+
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
